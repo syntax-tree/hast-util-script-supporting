@@ -12,7 +12,7 @@
     "util",
     "utility"
   ],
-  "repository": "https://github.com/syntax-tree/hast-util-script-supporting",
+  "repository": "syntax-tree/hast-util-script-supporting",
   "bugs": "https://github.com/syntax-tree/hast-util-script-supporting/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
