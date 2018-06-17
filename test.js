@@ -1,32 +1,24 @@
-'use strict';
+'use strict'
 
-var test = require('tape');
-var scriptSupporting = require('.');
+var test = require('tape')
+var scriptSupporting = require('.')
 
-test('scriptSupporting', function (t) {
-  t.equal(
-    scriptSupporting(),
-    false,
-    'should return `false` without node'
-  );
+test('scriptSupporting', function(t) {
+  t.equal(scriptSupporting(), false, 'should return `false` without node')
 
-  t.equal(
-    scriptSupporting(null),
-    false,
-    'should return `false` with `null`'
-  );
+  t.equal(scriptSupporting(null), false, 'should return `false` with `null`')
 
   t.equal(
     scriptSupporting({type: 'text'}),
     false,
     'should return `false` when without `element`'
-  );
+  )
 
   t.equal(
     scriptSupporting({type: 'element'}),
     false,
     'should return `false` when with invalid `element`'
-  );
+  )
 
   t.equal(
     scriptSupporting({
@@ -37,7 +29,7 @@ test('scriptSupporting', function (t) {
     }),
     false,
     'should return `false` when without not script-supporting'
-  );
+  )
 
   t.equal(
     scriptSupporting({
@@ -47,7 +39,7 @@ test('scriptSupporting', function (t) {
     }),
     true,
     'should return `true` when with script-supporting'
-  );
+  )
 
-  t.end();
-});
+  t.end()
+})

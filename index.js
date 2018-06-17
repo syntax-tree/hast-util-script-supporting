@@ -1,18 +1,12 @@
-'use strict';
+'use strict'
 
-/* Expose. */
-module.exports = scriptSupporting;
+module.exports = scriptSupporting
 
-/* Dependencies. */
-var is = require('hast-util-is-element');
+var is = require('hast-util-is-element')
 
-/* Tag-names. */
-var names = [
-  'script',
-  'template'
-];
+var names = ['script', 'template']
 
 /* Check if a node is a script-supporting element */
 function scriptSupporting(node) {
-  return is(node, names);
+  return is(node, names)
 }

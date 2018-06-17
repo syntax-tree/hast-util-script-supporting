@@ -13,20 +13,20 @@ npm install hast-util-script-supporting
 ## Usage
 
 ```javascript
-var scriptSupporting = require('hast-util-script-supporting');
+var scriptSupporting = require('hast-util-script-supporting')
 
 scriptSupporting({
   type: 'element',
   tagName: 'a',
   properties: {href: '#alpha', title: 'Bravo'},
   children: [{type: 'text', value: 'Charlie'}]
-}); //=> false
+}) // => false
 
 scriptSupporting({
   type: 'element',
   tagName: 'template',
   children: [{type: 'text', value: 'Delta'}]
-}); //=> true
+}) // => true
 ```
 
 ## API
