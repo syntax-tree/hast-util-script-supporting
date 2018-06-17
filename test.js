@@ -1,10 +1,8 @@
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
-var scriptSupporting = require('./index.js');
+var scriptSupporting = require('.');
 
-/* Tests. */
 test('scriptSupporting', function (t) {
   t.equal(
     scriptSupporting(),
