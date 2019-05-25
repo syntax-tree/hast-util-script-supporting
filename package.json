@@ -1,6 +1,6 @@
 {
   "name": "hast-util-script-supporting",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if a node is a script-supporting element",
   "license": "MIT",
   "keywords": [
