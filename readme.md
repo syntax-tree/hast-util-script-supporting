@@ -1,18 +1,27 @@
-# hast-util-script-supporting [![Build][build-badge]][build] [![Coverage][coverage-badge]][coverage] [![Downloads][downloads-badge]][downloads] [![Chat][chat-badge]][chat]
+# hast-util-script-supporting
 
-Check if a [HAST node][hast] is a [**script-supporting**][spec] [element][].
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
+[![Sponsors][sponsors-badge]][collective]
+[![Backers][backers-badge]][collective]
+[![Chat][chat-badge]][chat]
 
-## Installation
+[**hast**][hast] utility to check if an [*element*][element] is
+[*script-supporting*][spec].
+
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install hast-util-script-supporting
 ```
 
 ## Usage
 
-```javascript
+```js
 var scriptSupporting = require('hast-util-script-supporting')
 
 scriptSupporting({
@@ -33,15 +42,17 @@ scriptSupporting({
 
 ### `scriptSupporting(node)`
 
-Check if the given value is a [**script-supporting**][spec] [element][].
+Check if the given value is a [*script-supporting*][spec] [*element*][element].
 
 ## Contribute
 
-See [`contributing.md` in `syntax-tree/hast`][contributing] for ways to get
+See [`contributing.md` in `syntax-tree/.github`][contributing] for ways to get
 started.
+See [`support.md`][support] for ways to get help.
 
-This organisation has a [Code of Conduct][coc].  By interacting with this
-repository, organisation, or community you agree to abide by its terms.
+This project has a [Code of Conduct][coc].
+By interacting with this repository, organisation, or community you agree to
+abide by its terms.
 
 ## License
 
@@ -61,9 +72,19 @@ repository, organisation, or community you agree to abide by its terms.
 
 [downloads]: https://www.npmjs.com/package/hast-util-script-supporting
 
+[size-badge]: https://img.shields.io/bundlephobia/minzip/hast-util-script-supporting.svg
+
+[size]: https://bundlephobia.com/result?p=hast-util-script-supporting
+
+[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg
+
+[backers-badge]: https://opencollective.com/unified/backers/badge.svg
+
+[collective]: https://opencollective.com/unified
+
 [chat-badge]: https://img.shields.io/badge/join%20the%20community-on%20spectrum-7b16ff.svg
 
-[chat]: https://spectrum.chat/unified/rehype
+[chat]: https://spectrum.chat/unified/syntax-tree
 
 [npm]: https://docs.npmjs.com/cli/install
 
@@ -71,12 +92,14 @@ repository, organisation, or community you agree to abide by its terms.
 
 [author]: https://wooorm.com
 
-[hast]: https://github.com/syntax-tree/hast
+[contributing]: https://github.com/syntax-tree/.github/blob/master/contributing.md
 
-[element]: https://github.com/syntax-tree/hast#element
+[support]: https://github.com/syntax-tree/.github/blob/master/support.md
+
+[coc]: https://github.com/syntax-tree/.github/blob/master/code-of-conduct.md
 
 [spec]: https://html.spec.whatwg.org/#script-supporting-elements
 
-[contributing]: https://github.com/syntax-tree/hast/blob/master/contributing.md
+[hast]: https://github.com/syntax-tree/hast
 
-[coc]: https://github.com/syntax-tree/hast/blob/master/code-of-conduct.md
+[element]: https://github.com/syntax-tree/hast#element
