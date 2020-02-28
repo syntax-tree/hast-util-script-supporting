@@ -1,16 +1,18 @@
 {
   "name": "hast-util-script-supporting",
   "version": "1.0.3",
-  "description": "Check if a node is a script-supporting element",
+  "description": "hast utility to check if a node is a script-supporting element",
   "license": "MIT",
   "keywords": [
+    "unist",
     "hast",
+    "hast-util",
+    "util",
+    "utility",
     "html",
     "category",
     "script",
-    "supporting",
-    "util",
-    "utility"
+    "supporting"
   ],
   "repository": "syntax-tree/hast-util-script-supporting",
   "bugs": "https://github.com/syntax-tree/hast-util-script-supporting/issues",
