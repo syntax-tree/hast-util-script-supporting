@@ -3,7 +3,7 @@
 var test = require('tape')
 var scriptSupporting = require('.')
 
-test('scriptSupporting', function(t) {
+test('scriptSupporting', function (t) {
   t.equal(scriptSupporting(), false, 'should return `false` without node')
 
   t.equal(scriptSupporting(null), false, 'should return `false` with `null`')
