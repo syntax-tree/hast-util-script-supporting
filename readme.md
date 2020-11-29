@@ -98,9 +98,9 @@ abide by its terms.
 
 <!-- Definition -->
 
-[build-badge]: https://img.shields.io/travis/syntax-tree/hast-util-script-supporting.svg
+[build-badge]: https://github.com/syntax-tree/hast-util-script-supporting/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/syntax-tree/hast-util-script-supporting
+[build]: https://github.com/syntax-tree/hast-util-script-supporting/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/syntax-tree/hast-util-script-supporting.svg
 
