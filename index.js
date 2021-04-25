@@ -1,12 +1,4 @@
-'use strict'
-
-module.exports = scriptSupporting
-
-var is = require('hast-util-is-element')
-
-var names = ['script', 'template']
+import {convertElement} from 'hast-util-is-element'
 
 /* Check if a node is a script-supporting element */
-function scriptSupporting(node) {
-  return is(node, names)
-}
+export const scriptSupporting = convertElement(['script', 'template'])

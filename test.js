@@ -1,7 +1,5 @@
-'use strict'
-
-var test = require('tape')
-var scriptSupporting = require('.')
+import test from 'tape'
+import {scriptSupporting} from './index.js'
 
 test('scriptSupporting', function (t) {
   t.equal(scriptSupporting(), false, 'should return `false` without node')
