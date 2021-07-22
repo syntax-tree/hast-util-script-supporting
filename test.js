@@ -1,7 +1,7 @@
 import test from 'tape'
 import {scriptSupporting} from './index.js'
 
-test('scriptSupporting', function (t) {
+test('scriptSupporting', (t) => {
   t.equal(scriptSupporting(), false, 'should return `false` without node')
 
   t.equal(scriptSupporting(null), false, 'should return `false` with `null`')
