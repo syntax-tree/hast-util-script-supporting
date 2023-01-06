@@ -1,8 +1,15 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
 import {scriptSupporting} from './index.js'
+import * as mod from './index.js'
 
 test('scriptSupporting', () => {
+  assert.deepEqual(
+    Object.keys(mod).sort(),
+    ['scriptSupporting'],
+    'should expose the public api'
+  )
+
   assert.equal(scriptSupporting(), false, 'should return `false` without node')
 
   assert.equal(
