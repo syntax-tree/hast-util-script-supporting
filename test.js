@@ -1,12 +1,13 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import {scriptSupporting} from './index.js'
+import {scriptSupporting} from 'hast-util-script-supporting'
 
 test('scriptSupporting', async function (t) {
   await t.test('should expose the public api', async function () {
-    assert.deepEqual(Object.keys(await import('./index.js')).sort(), [
-      'scriptSupporting'
-    ])
+    assert.deepEqual(
+      Object.keys(await import('hast-util-script-supporting')).sort(),
+      ['scriptSupporting']
+    )
   })
 
   await t.test('should return `false` without node', async function () {
