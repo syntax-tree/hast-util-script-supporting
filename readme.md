@@ -47,14 +47,14 @@ npm install hast-util-script-supporting
 In Deno with [`esm.sh`][esmsh]:
 
 ```js
-import {scriptSupporting} from 'https://esm.sh/hast-util-script-supporting@2'
+import {scriptSupporting} from 'https://esm.sh/hast-util-script-supporting@3'
 ```
 
 In browsers with [`esm.sh`][esmsh]:
 
 ```html
 <script type="module">
-  import {scriptSupporting} from 'https://esm.sh/hast-util-script-supporting@2?bundle'
+  import {scriptSupporting} from 'https://esm.sh/hast-util-script-supporting@3?bundle'
 </script>
 ```
 
